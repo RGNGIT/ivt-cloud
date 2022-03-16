@@ -1,8 +1,7 @@
 import { Router } from "express";
-import Data from './data';
 
 const router = Router();
 
-router.use(Data);
+router.post('/send');
 
 export default router;
